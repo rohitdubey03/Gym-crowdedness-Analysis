@@ -35,5 +35,8 @@ month (int; 1 [jan] - 12 [dec])
 
 hour (int; 0 - 23)
 
+
+
 Acknowledgements
+
 This data was collected with the consent of the university and the gym in question.
