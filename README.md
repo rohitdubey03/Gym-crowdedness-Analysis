@@ -18,13 +18,22 @@ Number of people
 Features:
 
 date (string; datetime of data)
+
 timestamp (int; number of seconds since beginning of day)
+
 day_of_week (int; 0 [monday] - 6 [sunday])
+
 is_weekend (int; 0 or 1) [boolean, if 1, it's either saturday or sunday, otherwise 0]
+
 is_holiday (int; 0 or 1) [boolean, if 1 it's a federal holiday, 0 otherwise]
+
 temperature (float; degrees fahrenheit)
+
 is_start_of_semester (int; 0 or 1) [boolean, if 1 it's the beginning of a school semester, 0 otherwise]
+
 month (int; 1 [jan] - 12 [dec])
+
 hour (int; 0 - 23)
+
 Acknowledgements
 This data was collected with the consent of the university and the gym in question.
