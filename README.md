@@ -2,21 +2,23 @@
 Python notebook using data from Crowdedness at the Campus Gym (kaagle)
 
 
-About this Dataset
+# About this Dataset
 
 
-Background
+## Background
 
 When is my university campus gym least crowded, so I know when to work out? We measured how many people were in this gym once every 10 minutes over the last year. We want to be able to predict how crowded the gym will be in the future.
 
-Goals
+## Goals
 
 Given a time of day (and maybe some other features, including weather), predict how crowded the gym will be.
 Figure out which features are actually important, which are redundant, and what features could be added to make the predictions more accurate.
-Data
+
+## Data
+
 The dataset consists of 26,000 people counts (about every 10 minutes) over the last year. In addition, I gathered extra info including weather and semester-specific information that might affect how crowded it is. The label is the number of people, which I'd like to predict given some subset of the features.
 
-Label:
+## Label:
 
 Number of people
 Features:
@@ -41,6 +43,11 @@ hour (int; 0 - 23)
 
 
 
-Acknowledgements
+### Acknowledgements
 
 This data was collected with the consent of the university and the gym in question.
+
+### Article
+
+https://rohitdubey03.github.io/gymEda.html
+
